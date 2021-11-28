@@ -8,3 +8,7 @@ Within my Github repos you will find a variety of frontend projects like [my own
 
 - 🎒️ Mentoring on a local [CoderDojo](https://coderdojo-saar.de/) event
 - 👨‍💻️ [Twitch](https://www.twitch.tv/andi198) and [Youtube](https://www.youtube.com/channel/UC9yhSlXfpjleDuJV1AGViIg)
+
+# Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
