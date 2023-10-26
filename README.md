@@ -11,9 +11,9 @@ Within my Github repos you will find a variety of frontend projects like [my own
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [My Neovim journey](https://dev.to/andi1984/my-neovim-journey-3on6)
-- [Twitch Tech Streamers](https://dev.to/andi1984/twitch-tech-streamers-23l0)
-- [Streaming](https://dev.to/andi1984/streaming-o50)
-- [How do you test your VSCode extensions?](https://dev.to/andi1984/how-do-you-test-your-vscode-extensions-56ob)
-- [Starting with TypeScript via JSDoc](https://dev.to/andi1984/starting-with-typescript-via-jsdoc-3ji5)
+- [Bridging Communities: An Overview of the WordPress ActivityPub Plugin](https://dev.to/andi1984/bridging-communities-an-overview-of-the-wordpress-activitypub-plugin-o9o)
+- [Automatic Minimum Size of Flex Items](https://dev.to/andi1984/automatic-minimum-size-of-flex-items-20af)
+- [Container Queries in CSS: The Cool New Kid on the Block](https://dev.to/andi1984/container-queries-in-css-the-cool-new-kid-on-the-block-3kck)
+- [The ugly part of CSS-in-JS](https://dev.to/andi1984/the-ugly-part-of-css-in-js-2iph)
+- [The Evolution of Remote Work: Insights from Eight Years of Experience](https://dev.to/andi1984/the-evolution-of-remote-work-insights-from-eight-years-of-experience-3183)
 <!-- BLOG-POST-LIST:END -->
