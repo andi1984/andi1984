@@ -11,9 +11,9 @@ Within my Github repos you will find a variety of frontend projects like [my own
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Ferrico - Taking My Bookmarks Back Home with Tauri and Rust](https://dev.to/andi1984/ferrico-taking-my-bookmarks-back-home-with-tauri-and-rust-524e)
 - [[Boost]](https://dev.to/andi1984/-o94)
 - [A Letter to My Younger Self](https://dev.to/andi1984/a-letter-to-my-younger-self-3if5)
 - [Self-hosting a Mastodon Instance on a Hetzner Server](https://dev.to/andi1984/self-hosting-a-mastodon-instance-on-a-hetzner-server-1fhl)
 - [Nice #howto #article on how to clear #systemd journal #logs https://linuxhandbook.com/clear-systemd-journal-logs/](https://dev.to/andi1984/nice-howto-article-on-how-to-clear-systemd-journal-logs-3195)
-- [Exploring HTMX Integration with Go Backend](https://dev.to/andi1984/exploring-htmx-integration-with-go-backend-4gb2)
 <!-- BLOG-POST-LIST:END -->
