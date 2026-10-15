@@ -63,10 +63,12 @@ jobs:
 
   keepalive:
     # GitHub pauses scheduled workflows after 60 days without repo activity.
-    # v2 re-enables the workflow through the API instead of making dummy commits.
+    # Re-enabling the workflow through the API resets that timer, no dummy commits needed.
     name: Keep the schedule alive
     runs-on: ubuntu-latest
     permissions:
       actions: write
     steps:
-      - uses: gautamkrishnar/keepalive-workflow@v2
+      - run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/profile.yml/enable"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
