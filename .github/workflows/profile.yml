@@ -1,0 +1,72 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - profile.toml
+      - .github/workflows/profile.yml
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  readme:
+    name: Rebuild banner, cards and README
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes
+        run: |
+          git add README.md assets
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile"
+          git push
+
+  snake:
+    name: Draw the contribution snake
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#D9472F&color_dots=#EFE9DC,#C9E4C5,#8FCF9A,#4FA96B,#2F7D4F
+            dist/snake-dark.svg?color_snake=#FF7A5C&color_dots=#161B22,#1F3A2A,#2F6B45,#4FA96B,#6FD08C
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: redraw snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  keepalive:
+    # GitHub pauses scheduled workflows after 60 days without repo activity.
+    # v2 re-enables the workflow through the API instead of making dummy commits.
+    name: Keep the schedule alive
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: gautamkrishnar/keepalive-workflow@v2

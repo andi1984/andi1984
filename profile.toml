@@ -1,0 +1,57 @@
+# Config for scripts/build.py, which regenerates the banner, project cards and
+# the auto-updated README sections. Edit here, then run `python scripts/build.py`
+# (or let the "Refresh profile" workflow do it).
+
+[blog]
+feed = "https://andi1984.dev/rss.xml"
+devto_user = "andi1984"
+count = 5
+
+[activity]
+owners = ["andi1984", "viberfasend"]
+count = 3
+# Repos that are always "recently pushed" but say nothing about what I'm building.
+exclude = ["andi1984", "dotfiles", ".github", "blog", "leetcode"]
+
+# Featured project cards, rendered to assets/cards/<slug>-{light,dark}.svg.
+# `stat` picks the number shown bottom-right: "stars" or "vscode-installs".
+[[projects]]
+slug = "ferrico"
+repo = "viberfasend/ferrico_dot_app"
+name = "Ferrico"
+pitch = "Local-first bookmark manager. One SQLite file, fuzzy search across page bodies, dead-link sweeps and an Android companion."
+stack = ["Rust", "Tauri 2", "SQLite"]
+status = "v0.x · daily driver"
+accent = "tomato"
+stat = "stars"
+
+[[projects]]
+slug = "primico"
+repo = "viberfasend/primico"
+name = "Primico"
+pitch = "Todo app that sorts by importance first and lets due dates break ties. Offline by default, sync only against a database you own."
+stack = ["Kotlin", "Compose MP", "SQLDelight"]
+status = "Android + desktop"
+accent = "plum"
+stat = "stars"
+
+[[projects]]
+slug = "tinypng"
+repo = "andi1984/vscode-tinypng"
+name = "VSCode TinyPNG"
+pitch = "Compress PNGs and JPEGs right from the VS Code explorer, one file or a whole folder at a time."
+stack = ["TypeScript", "VS Code API"]
+status = "rated 5.0 on Marketplace"
+accent = "sky"
+stat = "vscode-installs"
+extension = "andi1984.tinypng"
+
+[[projects]]
+slug = "newsbot"
+repo = "andi1984/mastodon-news-bot"
+name = "Mastodon News Bot"
+pitch = "Regional news for Saarland on the fediverse. Clusters stories across 15+ feeds, threads follow-ups, answers questions when mentioned."
+stack = ["TypeScript", "Postgres", "Claude API"]
+status = "live as @saarlandnews"
+accent = "leaf"
+stat = "stars"
