@@ -65,8 +65,8 @@ Most of my newer side projects live in **[viberfasend](https://github.com/viberf
 ### Tools I reach for
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,vue,css,python,fastapi,rust,tauri,kotlin,go,postgres,neovim,linux&theme=dark">
-  <img alt="TypeScript, React, Vue, CSS, Python, FastAPI, Rust, Tauri, Kotlin, Go, Postgres, Neovim, Linux" src="https://skillicons.dev/icons?i=ts,react,vue,css,python,fastapi,rust,tauri,kotlin,go,postgres,neovim,linux&theme=light">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Creact%2Cvue%2Ccss%2Cpython%2Cfastapi%2Crust%2Ctauri%2Ckotlin%2Cgo%2Cpostgres%2Cneovim%2Clinux&theme=dark">
+  <img alt="TypeScript, React, Vue, CSS, Python, FastAPI, Rust, Tauri, Kotlin, Go, Postgres, Neovim, Linux" src="https://skillicons.dev/icons?i=ts%2Creact%2Cvue%2Ccss%2Cpython%2Cfastapi%2Crust%2Ctauri%2Ckotlin%2Cgo%2Cpostgres%2Cneovim%2Clinux&theme=light">
 </picture>
 
 <br><br>
