@@ -25,7 +25,7 @@ I've been building for the web since 2012. Right now that means [Dimensions](htt
 - 🦀 **Learning** enough Rust to stop fighting the borrow checker in public
 - 🍅 **Growing** tomatoes, three kinds of mint and one stubborn fig tree
   <!-- ACTIVITY:START -->
-- 🌱 **Recently pushed** to [primico](https://github.com/viberfasend/primico), [ferrico_dot_app](https://github.com/viberfasend/ferrico_dot_app) and [fastapi-queuepool-demo](https://github.com/andi1984/fastapi-queuepool-demo)
+- 🌱 **Recently pushed** to [andi1984-api](https://github.com/andi1984/andi1984-api), [primico](https://github.com/viberfasend/primico) and [ferrico_dot_app](https://github.com/viberfasend/ferrico_dot_app)
   <!-- ACTIVITY:END -->
 
 ### Things I've built
