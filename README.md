@@ -53,11 +53,11 @@ Most of my newer side projects live in **[viberfasend](https://github.com/viberf
 ### Latest writing
 
 <!-- WRITING:START -->
+- **[I Built an API About Myself - and My Website Now Reads From It](https://andi1984.dev/posts/developer-tools/my-own-personal-api)**<br><sub>Oct 19, 2026 · article · python, developer tools</sub>
 - **[My two repos had a chat. I mostly watched.](https://andi1984.dev/notes/ai/agents-talking-to-agents)**<br><sub>Oct 9, 2026 · note · ai, claude-code</sub>
 - **[QueuePool Limit Reached - When FastAPI Runs Out of Database Connections](https://andi1984.dev/posts/python/fastapi-queuepool-limit)**<br><sub>Oct 5, 2026 · article · python · <a href="https://dev.to/andi1984/queuepool-limit-reached-when-fastapi-runs-out-of-database-connections-2c2f">also on dev.to</a></sub>
 - **[Ferrico - Taking My Bookmarks Back Home with Tauri and Rust](https://andi1984.dev/posts/ferrico)**<br><sub>Jun 14, 2026 · article · developer tools · <a href="https://dev.to/andi1984/ferrico-taking-my-bookmarks-back-home-with-tauri-and-rust-524e">also on dev.to</a></sub>
 - **[A Letter to My Younger Self](https://andi1984.dev/posts/personal/letter)**<br><sub>Jan 14, 2026 · article · personal · <a href="https://dev.to/andi1984/a-letter-to-my-younger-self-3if5">also on dev.to</a></sub>
-- **[Self-hosting a Mastodon Instance on a Hetzner Server](https://andi1984.dev/posts/self-hosting-mastodon)**<br><sub>Jun 8, 2025 · article · self-hosting · <a href="https://dev.to/andi1984/self-hosting-a-mastodon-instance-on-a-hetzner-server-1fhl">also on dev.to</a></sub>
 <!-- WRITING:END -->
 
 <sub>More at <a href="https://andi1984.dev/writing">andi1984.dev/writing</a> · <a href="https://andi1984.dev/rss.xml">RSS</a></sub>
