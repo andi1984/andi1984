@@ -25,7 +25,7 @@ I've been building for the web since 2012. Right now that means [Dimensions](htt
 - 🦀 **Learning** enough Rust to stop fighting the borrow checker in public
 - 🍅 **Growing** tomatoes, three kinds of mint and one stubborn fig tree
   <!-- ACTIVITY:START -->
-- 🌱 **Recently pushed** to [primico](https://github.com/viberfasend/primico), [vllm-demo](https://github.com/andi1984/vllm-demo) and [feedrico](https://github.com/viberfasend/feedrico)
+- 🌱 **Recently pushed** to [andi1984-api](https://github.com/andi1984/andi1984-api), [primico](https://github.com/viberfasend/primico) and [vllm-demo](https://github.com/andi1984/vllm-demo)
   <!-- ACTIVITY:END -->
 
 ### Things I've built
@@ -53,11 +53,11 @@ Most of my newer side projects live in **[viberfasend](https://github.com/viberf
 ### Latest writing
 
 <!-- WRITING:START -->
+- **[Tool Calling Without the Magic: A Tiny LLM on My CPU Greets Ada](https://andi1984.dev/posts/ai/llm-tool-calling-on-a-cpu)**<br><sub>Nov 23, 2026 · article · ai, python</sub>
 - **[TypeScript Type Predicates, Five Years Later: What Nine Compilers Say](https://andi1984.dev/posts/typescript/type-predicates-five-years-later)**<br><sub>Nov 1, 2026 · article · typescript</sub>
 - **[CSS Quantity Queries, Nine Years Later: :has() and sibling-count()](https://andi1984.dev/posts/css/quantity-queries-nine-years-later)**<br><sub>Oct 24, 2026 · article · css</sub>
 - **[I Built an API About Myself - and My Website Now Reads From It](https://andi1984.dev/posts/developer-tools/my-own-personal-api)**<br><sub>Oct 19, 2026 · article · python, developer tools</sub>
 - **[My two repos had a chat. I mostly watched.](https://andi1984.dev/notes/ai/agents-talking-to-agents)**<br><sub>Oct 9, 2026 · note · ai, claude-code</sub>
-- **[QueuePool Limit Reached - When FastAPI Runs Out of Database Connections](https://andi1984.dev/posts/python/fastapi-queuepool-limit)**<br><sub>Oct 5, 2026 · article · python · <a href="https://dev.to/andi1984/queuepool-limit-reached-when-fastapi-runs-out-of-database-connections-2c2f">also on dev.to</a></sub>
 <!-- WRITING:END -->
 
 <sub>More at <a href="https://andi1984.dev/writing">andi1984.dev/writing</a> · <a href="https://andi1984.dev/rss.xml">RSS</a></sub>
